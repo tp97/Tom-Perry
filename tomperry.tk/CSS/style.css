@@ -3,16 +3,31 @@ html, body
     background-color: #474747;
     margin:0;
     padding:0;
+    overflow-y: hidden;
 }
 
 .header
 {
-    display:table;
     height:2%;
     width:100%;
     position:fixed;
     background:url(head/decoration.png);
     background-size:cover;
+}
+
+.navigation
+{
+    left:0;
+    line-height: 200px;
+    margin:auto;
+    margin-top: -100px;
+    position:absolute;
+    top:85%;
+    width:100%;
+    color: #E6E6E6;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
 }
 
 .intro
@@ -22,7 +37,7 @@ html, body
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 40%;
+    top: 45%;
     width: 100%;
     color: white;
     font-family:sans-serif;
@@ -54,3 +69,4 @@ html, body
     width: 100%;
     padding:0px;
 }
+
